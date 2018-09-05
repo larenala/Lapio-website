@@ -2,22 +2,30 @@
     width: 200px;
     height: 100px;
     margin: 10px;
+    color: blue;
+    text-transform: uppercase;
+    text-align: center;
+    padding-top: 50px;
 }
 
 #red {
     background-color: red;
     position: absolute;
     left: 0;
+    border: 10px solid green;
 }
 
 #yellow {
     background-color: yellow;
     position: absolute;
     left: 230px;
+    border: 10px solid red;
 }
 
 #green {
     background-color: green;
     position: absolute;
     left: 460px;
+    border: 10px solid yellow;
 }
+
